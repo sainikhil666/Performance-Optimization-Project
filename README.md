@@ -3,8 +3,13 @@ The goal of the project is to optimize the functionality of RESOW, a simple C pr
 
 Execution: 
 For executing unoptimized code, 
+
 gcc unoptimized.c 
+
 ./a.out Datasetsize buffersize inputfilename outputfilename 
+
 For executing optimized code, 
+
 gcc -o3 unoptimized.c 
+
 ./3 Datasetsize buffersize inputfilename outputfilename 
